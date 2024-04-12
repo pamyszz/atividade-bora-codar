@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Exercícios JavaScript</h1>
+
+        <!-- Seção para o primeiro exercício -->
+        <section>
+            <h2>1. Comparação de Números</h2>
+            <label for="num1">Informe o primeiro número:</label>
+            <input type="number" id="num1">
+            <label for="num2">Informe o segundo número:</label>
+            <input type="number" id="num2">
+            <button onclick="compararNumeros()">Verificar</button>
+            <p id="resultado1"></p>
+        </section>
+
+        <!-- Seção para o segundo exercício -->
+        <section>
+            <h2>2. Verificação de Valor</h2>
+            <label for="valor">Digite um valor:</label>
+            <input type="number" id="valor">
+            <button onclick="verificarValor()">Verificar</button>
+            <p id="resultado2"></p>
+        </section>
+
+        <!-- Seção para o terceiro exercício -->
+        <section>
+            <h2>3. Maior de Três Valores</h2>
+            <label for="val1">Digite o primeiro valor:</label>
+            <input type="number" id="val1">
+            <label for="val2">Digite o segundo valor:</label>
+            <input type="number" id="val2">
+            <label for="val3">Digite o terceiro valor:</label>
+            <input type="number" id="val3">
+            <button onclick="maiorDeTres()">Verificar</button>
+            <p id="resultado3"></p>
+        </section>
+
+        <!-- Seção para o quarto exercício -->
+        <section>
+            <h2>4. Comparação de Dois Valores</h2>
+            <label for="valorA">Digite o primeiro valor:</label>
+            <input type="number" id="valorA">
+            <label for="valorB">Digite o segundo valor:</label>
+            <input type="number" id="valorB">
+            <button onclick="compararDois()">Verificar</button>
+            <p id="resultado4"></p>
+        </section>
+
+        <!-- Seção para o quinto exercício -->
+        <section>
+            <h2>5. Média de 10 Valores</h2>
+            <p>Digite 10 valores para calcular a média:</p>
+            <div id="valores"></div>
+            <button onclick="calcularMedia()">Calcular Média</button>
+            <p id="resultado5"></p>
+        </section>
+
+        <!-- Seção para o sexto exercício -->
+        <section>
+            <h2>6. Soma de 10 Números</h2>
+            <p>Digite 10 números para calcular a soma:</p>
+            <button onclick="calcularSoma()">Calcular Soma</button>
+            <p id="resultado6"></p>
+        </section>
+
+        <!-- Seção para o sétimo exercício -->
+        <section>
+            <h2>7. Soma de Números Inferiores a 72</h2>
+            <p>Digite 6 números. A soma dos valores inferiores a 72 será calculada:</p>
+            <button onclick="somaInferiores()">Calcular Soma</button>
+            <p id="resultado7"></p>
+        </section>
+
+        <!-- Seção para o oitavo exercício -->
+        <section>
+            <h2>8. Média de Quatro Números (0 a 10)</h2>
+            <p>Digite 4 números entre 0 e 10 para calcular a média:</p>
+            <div>
+                <label for="num1">Número 1:</label>
+                <input type="number" id="num1" min="0" max="10">
+            </div>
+            <div>
+                <label for="num2">Número 2:</label>
+                <input type="number" id="num2" min="0" max="10">
+            </div>
+            <div>
+                <label for="num3">Número 3:</label>
+                <input type="number" id="num3" min="0" max="10">
+            </div>
+            <div>
+                <label for="num4">Número 4:</label>
+                <input type="number" id="num4" min="0" max="10">
+            </div>
+            <button onclick="calcularMediaQuatro()">Calcular Média</button>
+            <p id="resultado8"></p>
+        </section>
+
+        <!-- Seção para o nono exercício -->
+        <section>
+            <h2>9. Verificação de Idade para Votação</h2>
+            <label for="anoNascimento">Ano de Nascimento:</label>
+            <input type="number" id="anoNascimento">
+            <button onclick="verificarVotacao()">Verificar</button>
+            <p id="resultado9"></p>
+        </section>
+
+        <!-- Seção para o décimo exercício -->
+        <section>
+            <h2>10. Verificação de Senha</h2>
+            <label for="senha">Digite a senha:</label>
+            <input type="password" id="senha">
+            <button onclick="verificarSenha()">Verificar</button>
+            <p id="resultado10"></p>
+        </section>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
