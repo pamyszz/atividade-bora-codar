@@ -6,7 +6,7 @@ Este repositório contém uma série de exercícios em JavaScript, cada um abord
 2. Abra o arquivo index.html em um navegador da web.
 3. Interaja com os exercícios conforme necessário.
 
-##📘 Exercícios Disponíveis
+## 📘 Exercícios Disponíveis
 1. Comparação de Números
 2. Verificação de Valor
 3. Maior de Três Valores
