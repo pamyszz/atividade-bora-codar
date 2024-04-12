@@ -5,6 +5,7 @@ Este repositório contém uma série de exercícios em JavaScript, cada um abord
 1. Clone o repositório ou baixe os arquivos compactados.
 2. Abra o arquivo index.html em um navegador da web.
 3. Interaja com os exercícios conforme necessário.
+4. Ou Acesse o link https://pamyszz.github.io/atividade-bora-codar/
 
 ## 📘 Exercícios Disponíveis
 1. Comparação de Números
@@ -20,5 +21,3 @@ Este repositório contém uma série de exercícios em JavaScript, cada um abord
 
 Cada exercício possui um conjunto de instruções e interações com o usuário para fornecer resultados adequados.
 
-## 📝 Licença
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
